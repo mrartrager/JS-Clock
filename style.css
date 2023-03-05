@@ -47,12 +47,29 @@ body {
 
 .hand {
     width: 50%;
-    height: 6px;
+    height: 2px;
     background: white;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.05s;
+    transition: all 0.3s;
     transition-timing-function:cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+
+.min-hand {
+  width: 50%;
+  height: 4px;
+  background: rgb(255, 134, 134);
+  position: absolute;
+  top: 50%;
+}
+
+.hour-hand {
+  width: 50%;
+  height: 5px;
+  background: rgb(30, 30, 30);
+  position: absolute;
+  top: 50%;
 }
